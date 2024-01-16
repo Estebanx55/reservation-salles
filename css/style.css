@@ -1,0 +1,68 @@
+h1 {
+    text-align: center;
+}
+
+.button {
+    text-decoration: none;
+    color: black;
+}
+
+.button:link {
+    color: black;
+}
+
+.reservation {
+    background-color: green;
+}
+
+.weekeend {
+    background-color: red;
+}
+
+body {
+    margin: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 2px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    display: block; /* Make the button a block element */
+    width: 80%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the button horizontally */
+    padding: 5px;
+    background-color: green;
+    border: 1px solid #4CAF50;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.link:hover {
+    background-color: #45a049;
+    color: white;
+    text-decoration: none;
+}
+
+.link:visited{
+    text-align: none;
+}
+
+a{
+    text-decoration: none;
+}
